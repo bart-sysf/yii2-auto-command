@@ -1,0 +1,17 @@
+{
+    "name": "blurrywindows/yii2-auto-command",
+    "version": "1.0.0",
+    "description": "Yii 2 command that generates models for a database and apidoc documentation based on code comments.",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": "~2.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "blurrywindows\\AutoController\\": "src/"
+        }
+    }
+}
