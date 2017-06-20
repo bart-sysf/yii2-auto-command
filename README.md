@@ -1,4 +1,4 @@
-# Yii 2 Key Helper
+# Yii 2 Auto Command
 [![GitHub tag](https://img.shields.io/github/tag/blurrywindows/yii2-auto-command.svg)](https://github.com/blurrywindows/yii2-auto-command)
 [![Packagist](https://img.shields.io/packagist/dt/blurrywindows/yii2-auto-command.svg)](https://packagist.org/packages/blurrywindows/yii2-auto-command)
 [![Packagist](https://img.shields.io/packagist/l/blurrywindows/yii2-auto-command.svg)](https://packagist.org/packages/blurrywindows/yii2-auto-command)
