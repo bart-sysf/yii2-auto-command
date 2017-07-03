@@ -61,7 +61,7 @@ class AutoCommand extends Controller
                 $modelClass = 'Base' . $mainClass;
                 $this->run('gii/model', ['baseClass' => $this->baseClass, 'modelClass' => $modelClass, 'tableName' => $tableName, 'overwrite' => true, 'interactive' => false]);
 
-                $mainFile = __DIR__ . '/../' . $this->modelsFolder . '/' . $mainClass . '.php';
+                $mainFile = Yii::getAlias('@app') . '/' . $this->modelsFolder . '/' . $mainClass . '.php';
                 if (!file_exists($mainFile)) {
                     $body = <<<PHP
 <?php
@@ -84,6 +84,6 @@ PHP;
 
     public function actionApidoc()
     {
-        exec('"' . $this->npmBin[0] . '/apidoc" -i ./' . $this->apidocInputFolder . ' -o ./' . $this->apidocOutputFolder); //todo aangepast, testen op windows
+        exec('"' . $this->npmBin[0] . '/apidoc" -i ' . Yii::getAlias('@app') . '/' . $this->apidocInputFolder . ' -o ' . Yii::getAlias('@app') . '/' . $this->apidocOutputFolder);
     }
 }
