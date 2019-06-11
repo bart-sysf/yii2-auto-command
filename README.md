@@ -1,8 +1,8 @@
 # Yii 2 Auto Command
-[![GitHub tag](https://img.shields.io/github/tag/blurrywindows/yii2-auto-command.svg)](https://github.com/blurrywindows/yii2-auto-command)
+[![GitHub tag](https://img.shields.io/github/tag/blurrywindows/yii2-auto-command.svg)](https://github.com/xytiq/yii2-auto-command)
 [![Packagist](https://img.shields.io/packagist/dt/blurrywindows/yii2-auto-command.svg)](https://packagist.org/packages/blurrywindows/yii2-auto-command)
 [![Packagist](https://img.shields.io/packagist/l/blurrywindows/yii2-auto-command.svg)](https://packagist.org/packages/blurrywindows/yii2-auto-command)
-[![GitHub issues](https://img.shields.io/github/issues/blurrywindows/yii2-auto-command.svg)](https://github.com/blurrywindows/yii2-auto-command/issues)
+[![GitHub issues](https://img.shields.io/github/issues/blurrywindows/yii2-auto-command.svg)](https://github.com/xytiq/yii2-auto-command/issues)
 
 This is a Yii 2 extension (command) that may be used to automatically generate model classes and apidoc documentation.
 The actions in this command should normally not run on a production server. 
